@@ -13,4 +13,4 @@ interface RecetaApiService {
 
     @GET("recipes/{id}")
     suspend fun getReceta(@Path("id") id: Int): RecetaModel
-}git add .
+}
