@@ -77,7 +77,6 @@ fun BarraSuperior() {
         )
     )
 }
-
 @Composable
 fun BarraInferior(navController: NavHostController) {
     NavigationBar(
